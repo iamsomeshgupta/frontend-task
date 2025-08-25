@@ -50,6 +50,17 @@ vite.config.ts
 tsconfig.json
 ```
 
+##  Screenshots
+
+### InputField
+- Default, error, loading, and password toggle states  
+![InputField demo](./inputfield.gif)
+
+### DataTable
+- Sorting, row selection, loading, and empty states  
+![DataTable demo](./datatable.gif)
+
+
 ## Accessibility Notes
 - `InputField` uses `aria-invalid`, `aria-describedby`, and `role="alert"` for error text, and supports loading states via `aria-busy`.
 - `DataTable` indicates sort direction with `aria-sort` on headers and supports row selection via checkboxes with accessible labels.
