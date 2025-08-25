@@ -54,11 +54,11 @@ tsconfig.json
 
 ### InputField
 - Default, error, loading, and password toggle states  
-![InputField demo](./inputfield.gif)
+![InputField demo](./Screenshot (891).png)
 
 ### DataTable
 - Sorting, row selection, loading, and empty states  
-![DataTable demo](./datatable.gif)
+![DataTable demo](./Screenshot (892).png)
 
 
 ## Accessibility Notes
