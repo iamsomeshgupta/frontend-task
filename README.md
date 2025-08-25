@@ -56,13 +56,6 @@ tsconfig.json
 - Clean component APIs matching assignment props with a few ergonomic additions.
 - Tailwind utility classes for variants/sizes with a small `cn()` helper for class merging.
 - Generic `DataTable<T>` with typed columns and optional custom cell `render`.
-- Minimal, readable styles with dark mode awareness (via `dark:` hooks).
-
-## Deploying Storybook
-- Build: `pnpm build-storybook` (outputs `storybook-static/`).
-- Deploy to Chromatic or Vercel per your preference. See:
-  - https://www.chromatic.com/
-  - https://vercel.com/
 
 ## License
 MIT
