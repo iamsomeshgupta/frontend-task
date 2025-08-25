@@ -1,4 +1,4 @@
-# React + TypeScript + Tailwind + Storybook Components
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c00e4da2-c97b-4b45-8615-a4d1bfdc9889" /># React + TypeScript + Tailwind + Storybook Components
 
 Two reusable UI components built with React, TypeScript, TailwindCSS, and Storybook:
 
@@ -11,6 +11,9 @@ Two reusable UI components built with React, TypeScript, TailwindCSS, and Storyb
 - TailwindCSS
 - Storybook (React + Vite)
 - Vitest + Testing Library
+
+## Submission Links
+- Storybook Preview: [https://<your-chromatic-link>](https://www.chromatic.com/build?appId=68aca07847c03de9e3d3da82&number=2)
 
 ## Getting Started
 
