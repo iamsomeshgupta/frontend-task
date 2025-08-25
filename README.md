@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c00e4da2-c97b-4b45-8615-a4d1bfdc9889" /># React + TypeScript + Tailwind + Storybook Components
-
 Two reusable UI components built with React, TypeScript, TailwindCSS, and Storybook:
 
 - **InputField** — labeled text input with states (disabled, invalid, loading), variants (filled, outlined, ghost), sizes (sm, md, lg), optional clear and password toggle, and basic accessibility.
