@@ -3,13 +3,14 @@ import { DataTable, Column } from './DataTable'
 
 type Person = { id: number; name: string; email: string; age: number }
 
-const meta: Meta<typeof DataTable<Person>> = {
+const meta: Meta<typeof DataTable> = {
   title: 'Components/DataTable',
-  component: DataTable<Person> as any,
+  component: DataTable,
   tags: ['autodocs'],
 }
 export default meta
-type Story = StoryObj<typeof DataTable<Person>>
+
+type Story = StoryObj<typeof DataTable>
 
 const data: Person[] = [
   { id: 1, name: 'Ada Lovelace', email: 'ada@calc.org', age: 36 },
@@ -21,7 +22,7 @@ const columns: Column<Person>[] = [
   { key: 'name', title: 'Name', dataIndex: 'name', sortable: true },
   { key: 'email', title: 'Email', dataIndex: 'email', sortable: true },
   { key: 'age', title: 'Age', dataIndex: 'age', sortable: true },
-]
+] as any
 
 export const Basic: Story = {
   args: {
